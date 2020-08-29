@@ -34,7 +34,7 @@ export class TodoFooterComponent implements OnInit {
     this.store.dispatch(setFiltro({filtro:filtro})); //también {{filtro}}
   }
 
-  limpiarCompletados(filtro:filtrosValidos){
+  limpiarCompletados(){
     this.store.dispatch(actions.limpiarCompletados());
   }
 
